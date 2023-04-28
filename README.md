@@ -1,5 +1,9 @@
 # Terraform
 ## For checking the script
-terraform plan --var-file=terraform.tfvars
+```
+terraform plan --var-file=terraform.tfvars\
+```
 ## For applying changes
+```
 terraform apply --var-file=terraform.tfvars
+```
